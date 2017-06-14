@@ -1,1101 +1,124 @@
-
 <!DOCTYPE html>
-<!--[if lt IE 7 ]>
-<html class="ie ie6" lang="en">
-<![endif]-->
-<!--[if IE 7 ]>
-<html class="ie ie7" lang="en">
-<![endif]-->
-<!--[if IE 8 ]>
-<html class="ie ie8" lang="en">
-  <![endif]-->
-  <!--[if (gte IE 9)|!(IE)]>
-  <!-->
-  <html lang="en">
-    <!--
-    <![endif]-->
-    <head>
-      <meta charset="utf-8">
-        <title>Autonomous Weeder</title>
-        <!-- Mobile Specific -->
-        <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
-        <meta name="description" content="Binary Theme provides free bootstrap templates, bootstrap themes and asp.net bootstrap templates." >
-          <meta name="keywords" content="bootstrap templates, bootstrap themes, asp.net bootstrap." >
-            <!-- CSS Style -->
-            <link rel="stylesheet" href="http://binarytheme.com/wp-content/plugins/fbar/css/frame.css">
-              <!-- Favicons -->
-              <link rel="shortcut icon" href="http://www.binarytheme.com/wp-content/uploads/2015/01/bt-logo-fbar1.png">
-                <!-- JavaScript -->
-                <script type="text/javascript" src="http://binarytheme.com/wp-content/plugins/fbar/js/jquery-1.9.1.min.js"></script>
-                <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.8.23/jquery-ui.js"></script>
-                <script src="http://binarytheme.com/wp-content/plugins/fbar/js/custom.js"></script>
-              </head>
-              <body>
-                <div id="switcher"  style="background-color: #ffffff" >
-                  <div class="center">
-                    <div class="logo">
-                      <a href="/" target="_blank" title="Free Bootstrap Templates and Bootstrap Themes">
-                        <img height="55" src="http://www.binarytheme.com/wp-content/uploads/2015/01/logo-fbar.jpg" alt="Free Bootstrap Templates and Bootstrap Themes" />
-                      </a>
-                    </div>
-                    <ul>
-                      <li id="theme_list">
-                        <a id="theme_select" href="#">Bootstrap-timeline-template</a>
-                        <ul id="test1a">
-                          <li>
-                            <a href="http://binarytheme.com/demos?theme=Pricing-with-colours" >Pricing-with-colours
-                              <span style="background-color: #000000">component</span>
-                            </a>
-                            <img alt="" class="preview" src="http://www.binarytheme.com/wp-content/uploads/2014/08/Pricing-Table.png" />
-                          </li>
-                          <li>
-                            <a href="http://binarytheme.com/demos?theme=Error-simple" >Error-simple
-                              <span style="background-color: #000000">Speciality</span>
-                            </a>
-                            <img alt="" class="preview" src="http://www.binarytheme.com/wp-content/uploads/2014/08/Error.png" />
-                          </li>
-                          <li>
-                            <a href="http://binarytheme.com/demos?theme=Coming-soon-black" >Coming-soon-black
-                              <span style="background-color: #000000">specialty</span>
-                            </a>
-                            <img alt="" class="preview" src="http://www.binarytheme.com/wp-content/uploads/2014/08/Coming-Soon.png" />
-                          </li>
-                          <li>
-                            <a href="http://binarytheme.com/demos?theme=Beginner" >Beginner
-                              <span style="background-color: #000000">Beginnner</span>
-                            </a>
-                            <img alt="" class="preview" src="http://www.binarytheme.com/wp-content/uploads/2014/08/Beginner-Template.png" />
-                          </li>
-                          <li>
-                            <a href="http://binarytheme.com/demos?theme=Error-white" >Error-white
-                              <span style="background-color: #000000">specialty</span>
-                            </a>
-                            <img alt="" class="preview" src="http://www.binarytheme.com/wp-content/uploads/2014/08/Error-404.png" />
-                          </li>
-                          <li>
-                            <a href="http://binarytheme.com/demos?theme=Free-bootstrap-registration-template" >Free-bootstrap-registration-template
-                              <span style="background-color: #000000">specialty</span>
-                            </a>
-                            <img alt="" class="preview" src="http://www.binarytheme.com/wp-content/uploads/2014/08/Registration.png" />
-                          </li>
-                          <li>
-                            <a href="http://binarytheme.com/demos?theme=Responsive-signup-form-template" >Responsive-signup-form-template
-                              <span style="background-color: #000000">Specialty</span>
-                            </a>
-                            <img alt="" class="preview" src="http://binarytheme.com/wp-content/uploads/2015/09/signup1.png" />
-                          </li>
-                          <li>
-                            <a href="http://binarytheme.com/demos?theme=Bootstrap-login-page" >Bootstrap-login-page
-                              <span style="background-color: #000000">specialty</span>
-                            </a>
-                            <img alt="" class="preview" src="http://www.binarytheme.com/wp-content/uploads/2014/08/login.png" />
-                          </li>
-                          <li>
-                            <a href="http://binarytheme.com/demos?theme=Free-animated-coming-soon-template" >Free-animated-coming-soon-template
-                              <span style="background-color: #000000">specialty</span>
-                            </a>
-                            <img alt="" class="preview" src="http://www.binarytheme.com/wp-content/uploads/2014/08/Animated-Error.png" />
-                          </li>
-                          <li>
-                            <a href="http://binarytheme.com/demos?theme=Free-landappy-bootstrap-template" >Free-landappy-bootstrap-template
-                              <span style="background-color: #000000">Landing Page</span>
-                            </a>
-                            <img alt="" class="preview" src="http://www.binarytheme.com/wp-content/uploads/2014/08/landappy1.png" />
-                          </li>
-                          <li>
-                            <a href="http://binarytheme.com/demos?theme=Round-about-us" >Round-about-us
-                              <span style="background-color: #000000">Beginner</span>
-                            </a>
-                            <img alt="" class="preview" src="http://www.binarytheme.com/wp-content/uploads/2014/08/about-us-round.png" />
-                          </li>
-                          <li>
-                            <a href="http://binarytheme.com/demos?theme=Rectangle-about-us-template" >Rectangle-about-us-template
-                              <span style="background-color: #000000">Beginner</span>
-                            </a>
-                            <img alt="" class="preview" src="http://www.binarytheme.com/wp-content/uploads/2014/08/About-Us-Rectangle.png" />
-                          </li>
-                          <li>
-                            <a href="http://binarytheme.com/demos?theme=Four-column-portfolio-template" >Four-column-portfolio-template
-                              <span style="background-color: #000000">Beginner</span>
-                            </a>
-                            <img alt="" class="preview" src="http://www.binarytheme.com/wp-content/uploads/2014/08/Four-Column-Portfolio.png" />
-                          </li>
-                          <li>
-                            <a href="http://binarytheme.com/demos?theme=Free-bootstrap-three-column-portfolio" >Free-bootstrap-three-column-portfolio
-                              <span style="background-color: #000000">Beginner</span>
-                            </a>
-                            <img alt="" class="preview" src="http://www.binarytheme.com/wp-content/uploads/2014/08/three-column-portfolio1.png" />
-                          </li>
-                          <li>
-                            <a href="http://binarytheme.com/demos?theme=Bootstrap-single-item-showcase" >Bootstrap-single-item-showcase
-                              <span style="background-color: #000000">Beginner</span>
-                            </a>
-                            <img alt="" class="preview" src="http://www.binarytheme.com/wp-content/uploads/2014/08/single-item1.png" />
-                          </li>
-                          <li>
-                            <a href="http://binarytheme.com/demos?theme=Bootstrap-filter-portfolio-template" >Bootstrap-filter-portfolio-template
-                              <span style="background-color: #000000">Component</span>
-                            </a>
-                            <img alt="" class="preview" src="http://www.binarytheme.com/wp-content/uploads/2014/08/Filter-Portfolio1.png" />
-                          </li>
-                          <li>
-                            <a href="http://binarytheme.com/demos?theme=Asp-error-page" >Asp-error-page
-                              <span style="background-color: #000000">ASP</span>
-                            </a>
-                            <img alt="" class="preview" src="http://www.binarytheme.com/wp-content/uploads/2014/08/Error-4041.png" />
-                          </li>
-                          <li>
-                            <a href="http://binarytheme.com/demos?theme=Free-asp-net-rectangle-about-us" >Free-asp-net-rectangle-about-us
-                              <span style="background-color: #000000">Asp</span>
-                            </a>
-                            <img alt="" class="preview" src="http://www.binarytheme.com/wp-content/uploads/2014/08/About-Us-Rectangle1.png" />
-                          </li>
-                          <li>
-                            <a href="http://binarytheme.com/demos?theme=Free-asp-net-round-about-us-template" >Free-asp-net-round-about-us-template
-                              <span style="background-color: #000000">Asp</span>
-                            </a>
-                            <img alt="" class="preview" src="http://www.binarytheme.com/wp-content/uploads/2014/08/about-us-round1.png" />
-                          </li>
-                          <li>
-                            <a href="http://binarytheme.com/demos?theme=Asp-beginner-template" >Asp-beginner-template
-                              <span style="background-color: #000000">Asp</span>
-                            </a>
-                            <img alt="" class="preview" src="http://www.binarytheme.com/wp-content/uploads/2014/08/Beginner-Template1.png" />
-                          </li>
-                          <li>
-                            <a href="http://binarytheme.com/demos?theme=Asp-net-coming-soon-template" >Asp-net-coming-soon-template
-                              <span style="background-color: #000000">Asp</span>
-                            </a>
-                            <img alt="" class="preview" src="http://www.binarytheme.com/wp-content/uploads/2014/08/Coming-Soon1.png" />
-                          </li>
-                          <li>
-                            <a href="http://binarytheme.com/demos?theme=Free-asp-net-error-page-blue" >Free-asp-net-error-page-blue
-                              <span style="background-color: #000000">Asp</span>
-                            </a>
-                            <img alt="" class="preview" src="http://www.binarytheme.com/wp-content/uploads/2014/08/Error1.png" />
-                          </li>
-                          <li>
-                            <a href="http://binarytheme.com/demos?theme=Asp-net-pricing-table" >Asp-net-pricing-table
-                              <span style="background-color: #000000">Asp</span>
-                            </a>
-                            <img alt="" class="preview" src="http://www.binarytheme.com/wp-content/uploads/2014/08/Pricing-Table1.png" />
-                          </li>
-                          <li>
-                            <a href="http://binarytheme.com/demos?theme=Landappy-free-app-landing-template-in-asp" >Landappy-free-app-landing-template-in-asp
-                              <span style="background-color: #000000">Asp</span>
-                            </a>
-                            <img alt="" class="preview" src="http://www.binarytheme.com/wp-content/uploads/2014/08/landappy2.png" />
-                          </li>
-                          <li>
-                            <a href="http://binarytheme.com/demos?theme=Asp-portfolio" >Asp-portfolio
-                              <span style="background-color: #000000">Asp</span>
-                            </a>
-                            <img alt="" class="preview" src="http://www.binarytheme.com/wp-content/uploads/2014/08/Filter-Portfolio2.png" />
-                          </li>
-                          <li>
-                            <a href="http://binarytheme.com/demos?theme=Carousel-example-template" >Carousel-example-template
-                              <span style="background-color: #000000">Component</span>
-                            </a>
-                            <img alt="" class="preview" src="http://www.binarytheme.com/wp-content/uploads/2014/08/Carousel.png" />
-                          </li>
-                          <li>
-                            <a href="http://binarytheme.com/demos?theme=Asp-net-carta-animated-error-404" >Asp-net-carta-animated-error-404
-                              <span style="background-color: #000000">Asp</span>
-                            </a>
-                            <img alt="" class="preview" src="http://www.binarytheme.com/wp-content/uploads/2014/08/cart-error.png" />
-                          </li>
-                          <li>
-                            <a href="http://binarytheme.com/demos?theme=Bootstrap-carta-animated-error" >Bootstrap-carta-animated-error
-                              <span style="background-color: #000000">Specialty</span>
-                            </a>
-                            <img alt="" class="preview" src="http://www.binarytheme.com/wp-content/uploads/2014/08/cart-error-bs.png" />
-                          </li>
-                          <li>
-                            <a href="http://binarytheme.com/demos?theme=Asp-free-timeline-template" >Asp-free-timeline-template
-                              <span style="background-color: #000000">Asp</span>
-                            </a>
-                            <img alt="" class="preview" src="http://www.binarytheme.com/wp-content/uploads/2014/08/asp-Timeline.png" />
-                          </li>
-                          <li>
-                            <a href="http://binarytheme.com/demos?theme=Bootstrap-timeline-template" >Bootstrap-timeline-template
-                              <span style="background-color: #000000">Component</span>
-                            </a>
-                            <img alt="" class="preview" src="http://binarytheme.com/wp-content/uploads/2015/09/Timeline-bs.png" />
-                          </li>
-                          <li>
-                            <a href="http://binarytheme.com/demos?theme=Bootstrap-services-template" >Bootstrap-services-template
-                              <span style="background-color: #000000">Specialty</span>
-                            </a>
-                            <img alt="" class="preview" src="http://www.binarytheme.com/wp-content/uploads/2014/08/services-template.png" />
-                          </li>
-                          <li>
-                            <a href="http://binarytheme.com/demos?theme=Free-asp-net-coloi-multipurpose-template" >Free-asp-net-coloi-multipurpose-template
-                              <span style="background-color: #000000">Asp</span>
-                            </a>
-                            <img alt="" class="preview" src="http://www.binarytheme.com/wp-content/uploads/2014/08/coloi-asp.png" />
-                          </li>
-                          <li>
-                            <a href="http://binarytheme.com/demos?theme=Bootstrap-coloi-multipurpose-template" >Bootstrap-coloi-multipurpose-template
-                              <span style="background-color: #000000">Business & Corporates</span>
-                            </a>
-                            <img alt="" class="preview" src="http://www.binarytheme.com/wp-content/uploads/2014/08/coloi-bs.png" />
-                          </li>
-                          <li>
-                            <a href="http://binarytheme.com/demos?theme=Bootstrap-beginner-nav-template" >Bootstrap-beginner-nav-template
-                              <span style="background-color: #000000">Beginner</span>
-                            </a>
-                            <img alt="" class="preview" src="http://www.binarytheme.com/wp-content/uploads/2014/08/bs-nav-example.png" />
-                          </li>
-                          <li>
-                            <a href="http://binarytheme.com/demos?theme=Free-bootstrap-e-commerce-template" >Free-bootstrap-e-commerce-template
-                              <span style="background-color: #000000">E-commerce</span>
-                            </a>
-                            <img alt="" class="preview" src="http://www.binarytheme.com/wp-content/uploads/2014/08/bs-ecommerce.png" />
-                          </li>
-                          <li>
-                            <a href="http://binarytheme.com/demos?theme=Asp-net-free-e-commerce-template" >Asp-net-free-e-commerce-template
-                              <span style="background-color: #000000">Asp</span>
-                            </a>
-                            <img alt="" class="preview" src="http://www.binarytheme.com/wp-content/uploads/2014/08/asp-ecommerce.png" />
-                          </li>
-                          <li>
-                            <a href="http://binarytheme.com/demos?theme=Bootstrap-awesome-error-i-m-404" >Bootstrap-awesome-error-i-m-404
-                              <span style="background-color: #000000">Specialty</span>
-                            </a>
-                            <img alt="" class="preview" src="http://www.binarytheme.com/wp-content/uploads/2014/08/bs-awesome-error.png" />
-                          </li>
-                          <li>
-                            <a href="http://binarytheme.com/demos?theme=Asp-awesome-error-page-i-m-404" >Asp-awesome-error-page-i-m-404
-                              <span style="background-color: #000000">Asp</span>
-                            </a>
-                            <img alt="" class="preview" src="http://www.binarytheme.com/wp-content/uploads/2014/08/asp-awesome-error.png" />
-                          </li>
-                          <li>
-                            <a href="http://binarytheme.com/demos?theme=Asp-net-free-admin-template-siminta" >Asp-net-free-admin-template-siminta
-                              <span style="background-color: #000000">Asp</span>
-                            </a>
-                            <img alt="" class="preview" src="http://www.binarytheme.com/wp-content/uploads/2014/08/asp-siminta-admin.png" />
-                          </li>
-                          <li>
-                            <a href="http://binarytheme.com/demos?theme=Free-bootstrap-admin-template-siminta" >Free-bootstrap-admin-template-siminta
-                              <span style="background-color: #000000">Admin Dashboard</span>
-                            </a>
-                            <img alt="" class="preview" src="http://www.binarytheme.com/wp-content/uploads/2014/08/bs-siminta-admin.png" />
-                          </li>
-                          <li>
-                            <a href="http://binarytheme.com/demos?theme=Free-asp-net-blog-template" >Free-asp-net-blog-template
-                              <span style="background-color: #000000">Asp</span>
-                            </a>
-                            <img alt="" class="preview" src="http://www.binarytheme.com/wp-content/uploads/2014/08/asp-blog.png" />
-                          </li>
-                          <li>
-                            <a href="http://binarytheme.com/demos?theme=Free-bootstrap-blog-template" >Free-bootstrap-blog-template
-                              <span style="background-color: #000000">Blogging</span>
-                            </a>
-                            <img alt="" class="preview" src="http://www.binarytheme.com/wp-content/uploads/2014/08/bs-blog.png" />
-                          </li>
-                          <li>
-                            <a href="http://binarytheme.com/demos?theme=Asp-free-coming-soon-page-simple" >Asp-free-coming-soon-page-simple
-                              <span style="background-color: #000000">Asp</span>
-                            </a>
-                            <img alt="" class="preview" src="http://www.binarytheme.com/wp-content/uploads/2014/08/asp-Simple-Coming-soon.png" />
-                          </li>
-                          <li>
-                            <a href="http://binarytheme.com/demos?theme=Free-bootstrap-coming-soon-page-simple" >Free-bootstrap-coming-soon-page-simple
-                              <span style="background-color: #000000">Specialty</span>
-                            </a>
-                            <img alt="" class="preview" src="http://www.binarytheme.com/wp-content/uploads/2014/08/bs-Simple-Coming-soon.png" />
-                          </li>
-                          <li>
-                            <a href="http://binarytheme.com/demos?theme=Asp-error-page-simple" >Asp-error-page-simple
-                              <span style="background-color: #000000">Asp</span>
-                            </a>
-                            <img alt="" class="preview" src="http://www.binarytheme.com/wp-content/uploads/2014/08/asp-simple-error-page.png" />
-                          </li>
-                          <li>
-                            <a href="http://binarytheme.com/demos?theme=Free-bootstrap-error-page-simple" >Free-bootstrap-error-page-simple
-                              <span style="background-color: #000000">Specialty</span>
-                            </a>
-                            <img alt="" class="preview" src="http://www.binarytheme.com/wp-content/uploads/2014/08/bs-simple-error-page.png" />
-                          </li>
-                          <li>
-                            <a href="http://binarytheme.com/demos?theme=Bootstrap-personal-portfolio-or-resume-template" >Bootstrap-personal-portfolio-or-resume-template
-                              <span style="background-color: #000000">Portfolio</span>
-                            </a>
-                            <img alt="" class="preview" src="http://www.binarytheme.com/wp-content/uploads/2014/08/bs-portfolio-resume.png" />
-                          </li>
-                          <li>
-                            <a href="http://binarytheme.com/demos?theme=Asp-net-personal-portfolio-or-resume-template" >Asp-net-personal-portfolio-or-resume-template
-                              <span style="background-color: #000000">Porfolio</span>
-                            </a>
-                            <img alt="" class="preview" src="http://www.binarytheme.com/wp-content/uploads/2014/08/asp-portfolio-resume.png" />
-                          </li>
-                          <li>
-                            <a href="http://binarytheme.com/demos?theme=Bootstrap-free-pricing-table-simple" >Bootstrap-free-pricing-table-simple
-                              <span style="background-color: #000000">Component</span>
-                            </a>
-                            <img alt="" class="preview" src="http://www.binarytheme.com/wp-content/uploads/2014/08/bs-simple-pricing-table.png" />
-                          </li>
-                          <li>
-                            <a href="http://binarytheme.com/demos?theme=Bootstrap-multipurpose-template-tridenta" >Bootstrap-multipurpose-template-tridenta
-                              <span style="background-color: #000000">Business & Corporate</span>
-                            </a>
-                            <img alt="" class="preview" src="http://www.binarytheme.com/wp-content/uploads/2014/08/bs-tridenta.png" />
-                          </li>
-                          <li>
-                            <a href="http://binarytheme.com/demos?theme=Asp-net-free-pricing-table-simple" >Asp-net-free-pricing-table-simple
-                              <span style="background-color: #000000">Asp</span>
-                            </a>
-                            <img alt="" class="preview" src="http://www.binarytheme.com/wp-content/uploads/2014/08/asp-simple-pricing.png" />
-                          </li>
-                          <li>
-                            <a href="http://binarytheme.com/demos?theme=Asp-net-multipurpose-template-tridenta" >Asp-net-multipurpose-template-tridenta
-                              <span style="background-color: #000000">Asp</span>
-                            </a>
-                            <img alt="" class="preview" src="http://www.binarytheme.com/wp-content/uploads/2014/08/asp-tridenta.png" />
-                          </li>
-                          <li>
-                            <a href="http://binarytheme.com/demos?theme=Bootstrap-free-admin-dashboard-template" >Bootstrap-free-admin-dashboard-template
-                              <span style="background-color: #000000">Admin Dashboard</span>
-                            </a>
-                            <img alt="" class="preview" src="http://www.binarytheme.com/wp-content/uploads/2014/08/bs-admin-bcore.png" />
-                          </li>
-                          <li>
-                            <a href="http://binarytheme.com/demos?theme=Bootstrap-contact-template" >Bootstrap-contact-template
-                              <span style="background-color: #000000">Specialty</span>
-                            </a>
-                            <img alt="" class="preview" src="http://www.binarytheme.com/wp-content/uploads/2014/08/bs-contact-template.png" />
-                          </li>
-                          <li>
-                            <a href="http://binarytheme.com/demos?theme=Free-bootstrap-landing-page-binary" >Free-bootstrap-landing-page-binary
-                              <span style="background-color: #000000">Coming Soon</span>
-                            </a>
-                            <img alt="" class="preview" src="http://www.binarytheme.com/wp-content/uploads/2014/08/bs-landing-coming.png" />
-                          </li>
-                          <li>
-                            <a href="http://binarytheme.com/demos?theme=Asp-net-contact-template" >Asp-net-contact-template
-                              <span style="background-color: #000000">Asp</span>
-                            </a>
-                            <img alt="" class="preview" src="http://www.binarytheme.com/wp-content/uploads/2014/08/asp-contact-template.png" />
-                          </li>
-                          <li>
-                            <a href="http://binarytheme.com/demos?theme=Free-asp-net-landing-page-binary" >Free-asp-net-landing-page-binary
-                              <span style="background-color: #000000">Asp</span>
-                            </a>
-                            <img alt="" class="preview" src="http://www.binarytheme.com/wp-content/uploads/2014/08/asp-binary-landing-coming.png" />
-                          </li>
-                          <li>
-                            <a href="http://binarytheme.com/demos?theme=Bootstrap-blog-subscription-page" >Bootstrap-blog-subscription-page
-                              <span style="background-color: #000000">Specialty</span>
-                            </a>
-                            <img alt="" class="preview" src="http://www.binarytheme.com/wp-content/uploads/2014/08/bs-subscriber-page.png" />
-                          </li>
-                          <li>
-                            <a href="http://binarytheme.com/demos?theme=Asp-net-blog-subscription-page" >Asp-net-blog-subscription-page
-                              <span style="background-color: #000000">Asp</span>
-                            </a>
-                            <img alt="" class="preview" src="http://www.binarytheme.com/wp-content/uploads/2014/08/asp-subscribe-page.png" />
-                          </li>
-                          <li>
-                            <a href="http://binarytheme.com/demos?theme=Bootstrap-flask-landing-template" >Bootstrap-flask-landing-template
-                              <span style="background-color: #000000">Coming Soon</span>
-                            </a>
-                            <img alt="" class="preview" src="http://www.binarytheme.com/wp-content/uploads/2014/08/bs-flask-landing.png" />
-                          </li>
-                          <li>
-                            <a href="http://binarytheme.com/demos?theme=Locame-multipurpose-template" >Locame-multipurpose-template
-                              <span style="background-color: #000000">Business & Corporate</span>
-                            </a>
-                            <img alt="" class="preview" src="http://www.binarytheme.com/wp-content/uploads/2014/08/bs-locame-template.png" />
-                          </li>
-                          <li>
-                            <a href="http://binarytheme.com/demos?theme=Plus-coming-landing-page-template" >Plus-coming-landing-page-template
-                              <span style="background-color: #000000">Coming Soon</span>
-                            </a>
-                            <img alt="" class="preview" src="http://www.binarytheme.com/wp-content/uploads/2014/08/bs-plus-coming.png" />
-                          </li>
-                          <li>
-                            <a href="http://binarytheme.com/demos?theme=Bootstrap-simple-resume" >Bootstrap-simple-resume
-                              <span style="background-color: #000000">Portfolio</span>
-                            </a>
-                            <img alt="" class="preview" src="http://www.binarytheme.com/wp-content/uploads/2014/08/bs-simple-resume.png" />
-                          </li>
-                          <li>
-                            <a href="http://binarytheme.com/demos?theme=Free-asp-simple-resume-theme" >Free-asp-simple-resume-theme
-                              <span style="background-color: #000000">Asp</span>
-                            </a>
-                            <img alt="" class="preview" src="http://www.binarytheme.com/wp-content/uploads/2014/08/asp-simple-resume.png" />
-                          </li>
-                          <li>
-                            <a href="http://binarytheme.com/demos?theme=Free-asp-templates-flask-landing" >Free-asp-templates-flask-landing
-                              <span style="background-color: #000000">Asp</span>
-                            </a>
-                            <img alt="" class="preview" src="http://www.binarytheme.com/wp-content/uploads/2014/08/asp-flask-landing.png" />
-                          </li>
-                          <li>
-                            <a href="http://binarytheme.com/demos?theme=Free-asp-template-locame" >Free-asp-template-locame
-                              <span style="background-color: #000000">Asp</span>
-                            </a>
-                            <img alt="" class="preview" src="http://www.binarytheme.com/wp-content/uploads/2014/08/asp-locame-template.png" />
-                          </li>
-                          <li>
-                            <a href="http://binarytheme.com/demos?theme=Free-bootstrap-template-beta-landing-coming-soon" >Free-bootstrap-template-beta-landing-coming-soon
-                              <span style="background-color: #000000">Coming Soon</span>
-                            </a>
-                            <img alt="" class="preview" src="http://www.binarytheme.com/wp-content/uploads/2014/08/bs-beta-plus-CL.png" />
-                          </li>
-                          <li>
-                            <a href="http://binarytheme.com/demos?theme=Asp-error-page-template-counts-error" >Asp-error-page-template-counts-error
-                              <span style="background-color: #000000">Asp</span>
-                            </a>
-                            <img alt="" class="preview" src="http://www.binarytheme.com/wp-content/uploads/2014/08/asp-counts-error.png" />
-                          </li>
-                          <li>
-                            <a href="http://binarytheme.com/demos?theme=Free-error-page-template-counts-error" >Free-error-page-template-counts-error
-                              <span style="background-color: #000000">Specialty</span>
-                            </a>
-                            <img alt="" class="preview" src="http://www.binarytheme.com/wp-content/uploads/2014/08/bs-count-errror.png" />
-                          </li>
-                          <li>
-                            <a href="http://binarytheme.com/demos?theme=Free-template-bootstrap-multi-pager" >Free-template-bootstrap-multi-pager
-                              <span style="background-color: #000000">Multipager</span>
-                            </a>
-                            <img alt="" class="preview" src="http://www.binarytheme.com/wp-content/uploads/2014/08/bs-multipager-template.png" />
-                          </li>
-                          <li>
-                            <a href="http://binarytheme.com/demos?theme=Asp-net-scrolling-nav-example" >Asp-net-scrolling-nav-example
-                              <span style="background-color: #000000">Asp</span>
-                            </a>
-                            <img alt="" class="preview" src="http://www.binarytheme.com/wp-content/uploads/2014/08/asp-scrolling-nav.png" />
-                          </li>
-                          <li>
-                            <a href="http://binarytheme.com/demos?theme=Bootstrap-scrolling-nav-example" >Bootstrap-scrolling-nav-example
-                              <span style="background-color: #000000">Component</span>
-                            </a>
-                            <img alt="" class="preview" src="http://www.binarytheme.com/wp-content/uploads/2014/08/bs-scrolling-nav.png" />
-                          </li>
-                          <li>
-                            <a href="http://binarytheme.com/demos?theme=Bootstrap-template-simpla" >Bootstrap-template-simpla
-                              <span style="background-color: #000000">Business & Corporate</span>
-                            </a>
-                            <img alt="" class="preview" src="http://www.binarytheme.com/wp-content/uploads/2014/08/bs-simpla-template.png" />
-                          </li>
-                          <li>
-                            <a href="http://binarytheme.com/demos?theme=Unique-error-page-using-bootstrap" >Unique-error-page-using-bootstrap
-                              <span style="background-color: #000000">Specialty</span>
-                            </a>
-                            <img alt="" class="preview" src="http://www.binarytheme.com/wp-content/uploads/2014/08/bs-unique-error.png" />
-                          </li>
-                          <li>
-                            <a href="http://binarytheme.com/demos?theme=Unique-error-page-using-asp" >Unique-error-page-using-asp
-                              <span style="background-color: #000000">Asp</span>
-                            </a>
-                            <img alt="" class="preview" src="http://www.binarytheme.com/wp-content/uploads/2014/08/asp-unique-error.png" />
-                          </li>
-                          <li>
-                            <a href="http://binarytheme.com/demos?theme=Awesome-portfolio-template-two-way-team" >Awesome-portfolio-template-two-way-team
-                              <span style="background-color: #000000">Portfolio</span>
-                            </a>
-                            <img alt="" class="preview" src="http://www.binarytheme.com/wp-content/uploads/2014/08/bs-two-way-team.png" />
-                          </li>
-                          <li>
-                            <a href="http://binarytheme.com/demos?theme=Awesome-portfolio-template-two-way-team-in-asp-net" >Awesome-portfolio-template-two-way-team-in-asp-net
-                              <span style="background-color: #000000">Asp</span>
-                            </a>
-                            <img alt="" class="preview" src="http://www.binarytheme.com/wp-content/uploads/2014/08/asp-two-way-team.png" />
-                          </li>
-                          <li>
-                            <a href="http://binarytheme.com/demos?theme=Free-asp-net-parallax-template" >Free-asp-net-parallax-template
-                              <span style="background-color: #000000">Asp</span>
-                            </a>
-                            <img alt="" class="preview" src="http://www.binarytheme.com/wp-content/uploads/2014/08/asp-parallax-template.png" />
-                          </li>
-                          <li>
-                            <a href="http://binarytheme.com/demos?theme=Free-bootstrap-parallax-template" >Free-bootstrap-parallax-template
-                              <span style="background-color: #000000">Business & Corporate</span>
-                            </a>
-                            <img alt="" class="preview" src="http://www.binarytheme.com/wp-content/uploads/2014/08/bs-parallax-template.png" />
-                          </li>
-                          <li>
-                            <a href="http://binarytheme.com/demos?theme=Bootstrap-background-slideshow-template-vega" >Bootstrap-background-slideshow-template-vega
-                              <span style="background-color: #000000">Business & Corporates</span>
-                            </a>
-                            <img alt="" class="preview" src="http://www.binarytheme.com/wp-content/uploads/2014/08/bs-slider-vega.png" />
-                          </li>
-                          <li>
-                            <a href="http://binarytheme.com/demos?theme=Asp-background-slideshow-template-vega" >Asp-background-slideshow-template-vega
-                              <span style="background-color: #000000">Asp</span>
-                            </a>
-                            <img alt="" class="preview" src="http://www.binarytheme.com/wp-content/uploads/2014/08/asp-background-slider-vega.png" />
-                          </li>
-                          <li>
-                            <a href="http://binarytheme.com/demos?theme=Asp-net-parallax-template-lucenta" >Asp-net-parallax-template-lucenta
-                              <span style="background-color: #000000">Asp</span>
-                            </a>
-                            <img alt="" class="preview" src="http://www.binarytheme.com/wp-content/uploads/2014/08/asp-lucenta.png" />
-                          </li>
-                          <li>
-                            <a href="http://binarytheme.com/demos?theme=Bootstrap-parallax-template-lucenta" >Bootstrap-parallax-template-lucenta
-                              <span style="background-color: #000000">Portfolio</span>
-                            </a>
-                            <img alt="" class="preview" src="http://www.binarytheme.com/wp-content/uploads/2014/08/bs-lucenta.png" />
-                          </li>
-                          <li>
-                            <a href="http://binarytheme.com/demos?theme=Awesome-asp-template-biwas" >Awesome-asp-template-biwas
-                              <span style="background-color: #000000">Asp</span>
-                            </a>
-                            <img alt="" class="preview" src="http://www.binarytheme.com/wp-content/uploads/2014/08/asp-biwas-template.png" />
-                          </li>
-                          <li>
-                            <a href="http://binarytheme.com/demos?theme=Asp-slideshow-template-slide-wonder" >Asp-slideshow-template-slide-wonder
-                              <span style="background-color: #000000">Asp</span>
-                            </a>
-                            <img alt="" class="preview" src="http://www.binarytheme.com/wp-content/uploads/2014/08/asp-slide-wonder.png" />
-                          </li>
-                          <li>
-                            <a href="http://binarytheme.com/demos?theme=Bootstrap-slideshow-template-slide-wonder" >Bootstrap-slideshow-template-slide-wonder
-                              <span style="background-color: #000000">Business & Corporate</span>
-                            </a>
-                            <img alt="" class="preview" src="http://www.binarytheme.com/wp-content/uploads/2014/08/bs-slide-wonder.png" />
-                          </li>
-                          <li>
-                            <a href="http://binarytheme.com/demos?theme=Awesome-bootstrap-template-biwas" >Awesome-bootstrap-template-biwas
-                              <span style="background-color: #000000">Business & Corporate</span>
-                            </a>
-                            <img alt="" class="preview" src="http://www.binarytheme.com/wp-content/uploads/2014/08/bs-biwas-template.png" />
-                          </li>
-                          <li>
-                            <a href="http://binarytheme.com/demos?theme=Bootstrap-error-page-burn-animated-jumbo" >Bootstrap-error-page-burn-animated-jumbo
-                              <span style="background-color: #000000">Specialty</span>
-                            </a>
-                            <img alt="" class="preview" src="http://www.binarytheme.com/wp-content/uploads/2014/08/bs-burn-animated.png" />
-                          </li>
-                          <li>
-                            <a href="http://binarytheme.com/demos?theme=Bootstrap-blog-template-bloga" >Bootstrap-blog-template-bloga
-                              <span style="background-color: #000000">Blogging</span>
-                            </a>
-                            <img alt="" class="preview" src="http://www.binarytheme.com/wp-content/uploads/2014/08/bs-bloga.png" />
-                          </li>
-                          <li>
-                            <a href="http://binarytheme.com/demos?theme=Bootstrap-multipager-template-maxop" >Bootstrap-multipager-template-maxop
-                              <span style="background-color: #000000">Multipager</span>
-                            </a>
-                            <img alt="" class="preview" src="http://www.binarytheme.com/wp-content/uploads/2014/08/bs-maxop.png" />
-                          </li>
-                          <li>
-                            <a href="http://binarytheme.com/demos?theme=Asp-e-commerce-template-digishop" >Asp-e-commerce-template-digishop
-                              <span style="background-color: #000000">Asp</span>
-                            </a>
-                            <img alt="" class="preview" src="http://www.binarytheme.com/wp-content/uploads/2014/08/asp-digishop-mini.png" />
-                          </li>
-                          <li>
-                            <a href="http://binarytheme.com/demos?theme=Bootstrap-e-commerce-template-digishop" >Bootstrap-e-commerce-template-digishop
-                              <span style="background-color: #000000">E-commerce</span>
-                            </a>
-                            <img alt="" class="preview" src="http://www.binarytheme.com/wp-content/uploads/2014/08/bs-digishop-mini.png" />
-                          </li>
-                          <li>
-                            <a href="http://binarytheme.com/demos?theme=Unique-bootstrap-template-peterna" >Unique-bootstrap-template-peterna
-                              <span style="background-color: #000000">Business & Corporates</span>
-                            </a>
-                            <img alt="" class="preview" src="http://www.binarytheme.com/wp-content/uploads/2014/08/bs-peterna.png" />
-                          </li>
-                          <li>
-                            <a href="http://binarytheme.com/demos?theme=Asp-unique-template-peterna" >Asp-unique-template-peterna
-                              <span style="background-color: #000000">Asp</span>
-                            </a>
-                            <img alt="" class="preview" src="http://www.binarytheme.com/wp-content/uploads/2014/08/asp-peterna.png" />
-                          </li>
-                          <li>
-                            <a href="http://binarytheme.com/demos?theme=Asp-awesome-landing-page-appz" >Asp-awesome-landing-page-appz
-                              <span style="background-color: #000000">Asp</span>
-                            </a>
-                            <img alt="" class="preview" src="http://www.binarytheme.com/wp-content/uploads/2014/08/asp-appz.png" />
-                          </li>
-                          <li>
-                            <a href="http://binarytheme.com/demos?theme=Awesome-landing-page-appz" >Awesome-landing-page-appz
-                              <span style="background-color: #000000">Landing Page</span>
-                            </a>
-                            <img alt="" class="preview" src="http://www.binarytheme.com/wp-content/uploads/2014/08/bs-appz.png" />
-                          </li>
-                          <li>
-                            <a href="http://binarytheme.com/demos?theme=Free-bootstrap-template-for-personal-resume-feddy" >Free-bootstrap-template-for-personal-resume-feddy
-                              <span style="background-color: #000000">Portfolio</span>
-                            </a>
-                            <img alt="" class="preview" src="http://www.binarytheme.com/wp-content/uploads/2014/08/bs-feddy.png" />
-                          </li>
-                          <li>
-                            <a href="http://binarytheme.com/demos?theme=Free-asp-net-under-construction-template-teja-time" >Free-asp-net-under-construction-template-teja-time
-                              <span style="background-color: #000000">Asp</span>
-                            </a>
-                            <img alt="" class="preview" src="http://www.binarytheme.com/wp-content/uploads/2014/08/asp-teja-time.png" />
-                          </li>
-                          <li>
-                            <a href="http://binarytheme.com/demos?theme=Free-bootstrap-under-construction-template-teja-time" >Free-bootstrap-under-construction-template-teja-time
-                              <span style="background-color: #000000">Coming Soon</span>
-                            </a>
-                            <img alt="" class="preview" src="http://www.binarytheme.com/wp-content/uploads/2014/08/bs-teja-time.png" />
-                          </li>
-                          <li>
-                            <a href="http://binarytheme.com/demos?theme=Free-bootstrap-template-relax" >Free-bootstrap-template-relax
-                              <span style="background-color: #000000">Business & Corporates</span>
-                            </a>
-                            <img alt="" class="preview" src="http://www.binarytheme.com/wp-content/uploads/2014/08/bs-relax.png" />
-                          </li>
-                          <li>
-                            <a href="http://binarytheme.com/demos?theme=Free-bootstrap-parallax-template-green-fire" >Free-bootstrap-parallax-template-green-fire
-                              <span style="background-color: #000000">Business & Corporates</span>
-                            </a>
-                            <img alt="" class="preview" src="http://www.binarytheme.com/wp-content/uploads/2014/08/bs-green-fire.png" />
-                          </li>
-                          <li>
-                            <a href="http://binarytheme.com/demos?theme=Free-asp-net-parallax-theme-green-fire" >Free-asp-net-parallax-theme-green-fire
-                              <span style="background-color: #000000">Asp</span>
-                            </a>
-                            <img alt="" class="preview" src="http://www.binarytheme.com/wp-content/uploads/2014/08/asp-green-fire.png" />
-                          </li>
-                          <li>
-                            <a href="http://binarytheme.com/demos?theme=Free-asp-net-landing-template-landme" >Free-asp-net-landing-template-landme
-                              <span style="background-color: #000000">Asp</span>
-                            </a>
-                            <img alt="" class="preview" src="http://www.binarytheme.com/wp-content/uploads/2014/08/asp-landme.png" />
-                          </li>
-                          <li>
-                            <a href="http://binarytheme.com/demos?theme=Asp-net-image-less-template" >Asp-net-image-less-template
-                              <span style="background-color: #000000">Asp</span>
-                            </a>
-                            <img alt="" class="preview" src="http://www.binarytheme.com/wp-content/uploads/2014/08/asp-image-less.png" />
-                          </li>
-                          <li>
-                            <a href="http://binarytheme.com/demos?theme=Domain-for-sale-bootstrap-template" >Domain-for-sale-bootstrap-template
-                              <span style="background-color: #000000">Specialty Page</span>
-                            </a>
-                            <img alt="" class="preview" src="http://www.binarytheme.com/wp-content/uploads/2014/08/bs-dfs.png" />
-                          </li>
-                          <li>
-                            <a href="http://binarytheme.com/demos?theme=Free-bootstrap-landing-template-landme" >Free-bootstrap-landing-template-landme
-                              <span style="background-color: #000000">Coming Soon</span>
-                            </a>
-                            <img alt="" class="preview" src="http://www.binarytheme.com/wp-content/uploads/2014/08/bs-landme.png" />
-                          </li>
-                          <li>
-                            <a href="http://binarytheme.com/demos?theme=Bootstrap-image-less-template" >Bootstrap-image-less-template
-                              <span style="background-color: #000000">Business & Corporates</span>
-                            </a>
-                            <img alt="" class="preview" src="http://www.binarytheme.com/wp-content/uploads/2014/08/bs-image-less.png" />
-                          </li>
-                          <li>
-                            <a href="http://binarytheme.com/demos?theme=Travelic-is-a-multipager-bootstrap-template" >Travelic-is-a-multipager-bootstrap-template
-                              <span style="background-color: #000000">Business & Corporate</span>
-                            </a>
-                            <img alt="" class="preview" src="http://www.binarytheme.com/wp-content/uploads/2014/08/bs-travelic.png" />
-                          </li>
-                          <li>
-                            <a href="http://binarytheme.com/demos?theme=Free-travel-template-in-asp-travelic" >Free-travel-template-in-asp-travelic
-                              <span style="background-color: #000000">Asp</span>
-                            </a>
-                            <img alt="" class="preview" src="http://www.binarytheme.com/wp-content/uploads/2014/08/asp-travelic.png" />
-                          </li>
-                          <li>
-                            <a href="http://binarytheme.com/demos?theme=Free-template-simple-company" >Free-template-simple-company
-                              <span style="background-color: #000000">Business & Corporate</span>
-                            </a>
-                            <img alt="" class="preview" src="http://www.binarytheme.com/wp-content/uploads/2014/08/bs-simple-company.png" />
-                          </li>
-                          <li>
-                            <a href="http://binarytheme.com/demos?theme=Asp-underconstruction-template" >Asp-underconstruction-template
-                              <span style="background-color: #000000">Asp</span>
-                            </a>
-                            <img alt="" class="preview" src="http://www.binarytheme.com/wp-content/uploads/2014/08/asp-ruct.png" />
-                          </li>
-                          <li>
-                            <a href="http://binarytheme.com/demos?theme=Underconstruction-template" >Underconstruction-template
-                              <span style="background-color: #000000">Coming Soon</span>
-                            </a>
-                            <img alt="" class="preview" src="http://www.binarytheme.com/wp-content/uploads/2014/08/bs-ruct.png" />
-                          </li>
-                          <li>
-                            <a href="http://binarytheme.com/demos?theme=Free-asp-admin-template-two-page" >Free-asp-admin-template-two-page
-                              <span style="background-color: #000000">Asp </span>
-                            </a>
-                            <img alt="" class="preview" src="http://www.binarytheme.com/wp-content/uploads/2014/08/asp-twopage-admin.png" />
-                          </li>
-                          <li>
-                            <a href="http://binarytheme.com/demos?theme=Free-bootstrap-admin-template-two-page" >Free-bootstrap-admin-template-two-page
-                              <span style="background-color: #000000">Admin & Dashboard</span>
-                            </a>
-                            <img alt="" class="preview" src="http://www.binarytheme.com/wp-content/uploads/2014/08/bs-twopage-admin.png" />
-                          </li>
-                          <li>
-                            <a href="http://binarytheme.com/demos?theme=Free-property-template" >Free-property-template
-                              <span style="background-color: #000000">Business & Porporate</span>
-                            </a>
-                            <img alt="" class="preview" src="http://www.binarytheme.com/wp-content/uploads/2014/08/bs-property.png" />
-                          </li>
-                          <li>
-                            <a href="http://binarytheme.com/demos?theme=Free-portfolio-template-resumae" >Free-portfolio-template-resumae
-                              <span style="background-color: #000000">Portfolio</span>
-                            </a>
-                            <img alt="" class="preview" src="http://www.binarytheme.com/wp-content/uploads/2014/08/bs-resumae.png" />
-                          </li>
-                          <li>
-                            <a href="http://binarytheme.com/demos?theme=Free-multipurpose-template-ruma" >Free-multipurpose-template-ruma
-                              <span style="background-color: #000000">Multipager</span>
-                            </a>
-                            <img alt="" class="preview" src="http://www.binarytheme.com/wp-content/uploads/2014/08/bs-multipurpose-ruma.png" />
-                          </li>
-                          <li>
-                            <a href="http://binarytheme.com/demos?theme=Free-responsive-template-using-bootstrap-revas" >Free-responsive-template-using-bootstrap-revas
-                              <span style="background-color: #000000">Business & Corporate</span>
-                            </a>
-                            <img alt="" class="preview" src="http://www.binarytheme.com/wp-content/uploads/2014/08/bs-revas.png" />
-                          </li>
-                          <li>
-                            <a href="http://binarytheme.com/demos?theme=Free-bootstrap-error-template" >Free-bootstrap-error-template
-                              <span style="background-color: #000000">Specialty</span>
-                            </a>
-                            <img alt="" class="preview" src="http://www.binarytheme.com/wp-content/uploads/2014/08/bs-count-error-new.png" />
-                          </li>
-                          <li>
-                            <a href="http://binarytheme.com/demos?theme=Free-responsive-template" >Free-responsive-template
-                              <span style="background-color: #000000">Business & Corporate</span>
-                            </a>
-                            <img alt="" class="preview" src="http://www.binarytheme.com/wp-content/uploads/2014/08/bs-design-view.png" />
-                          </li>
-                          <li>
-                            <a href="http://binarytheme.com/demos?theme=Landing-plus-template" >Landing-plus-template
-                              <span style="background-color: #000000">Landing Page</span>
-                            </a>
-                            <img alt="" class="preview" src="http://www.binarytheme.com/wp-content/uploads/2014/08/bs-landing-plus.png" />
-                          </li>
-                          <li>
-                            <a href="http://binarytheme.com/demos?theme=Speak-multipager-template-responsive-free" >Speak-multipager-template-responsive-free
-                              <span style="background-color: #000000">Business & Corporate</span>
-                            </a>
-                            <img alt="" class="preview" src="http://www.binarytheme.com/wp-content/uploads/2014/08/bs-speak-multipager.jpg" />
-                          </li>
-                          <li>
-                            <a href="http://binarytheme.com/demos?theme=Free-bootstrap-soft-showcase-responsive-template" >Free-bootstrap-soft-showcase-responsive-template
-                              <span style="background-color: #000000">Landing Page</span>
-                            </a>
-                            <img alt="" class="preview" src="http://www.binarytheme.com/wp-content/uploads/2014/08/bs-soft-showcase.png" />
-                          </li>
-                          <li>
-                            <a href="http://binarytheme.com/demos?theme=Responsive-transparent-template" >Responsive-transparent-template
-                              <span style="background-color: #000000">Business & Corporate</span>
-                            </a>
-                            <img alt="" class="preview" src="http://www.binarytheme.com/wp-content/uploads/2014/08/bs-transparent.png" />
-                          </li>
-                          <li>
-                            <a href="http://binarytheme.com/demos?theme=Ecosave-bootstrap-environment-template" >Ecosave-bootstrap-environment-template
-                              <span style="background-color: #000000">Business & Corporate</span>
-                            </a>
-                            <img alt="" class="preview" src="http://www.binarytheme.com/wp-content/uploads/2014/08/bs-ecosave.png" />
-                          </li>
-                          <li>
-                            <a href="http://binarytheme.com/demos?theme=Domain-for-sale-template-dona" >Domain-for-sale-template-dona
-                              <span style="background-color: #000000">Speciality Page</span>
-                            </a>
-                            <img alt="" class="preview" src="http://www.binarytheme.com/wp-content/uploads/2014/08/bs-dona.png" />
-                          </li>
-                          <li>
-                            <a href="http://binarytheme.com/demos?theme=Free-support-center-admin-template" >Free-support-center-admin-template
-                              <span style="background-color: #000000">Admin & Dashboard</span>
-                            </a>
-                            <img alt="" class="preview" src="http://binarytheme.com/wp-content/uploads/2015/09/bs-support-admin.png" />
-                          </li>
-                          <li>
-                            <a href="http://binarytheme.com/demos?theme=Free-responsive-domain-template-saleit" >Free-responsive-domain-template-saleit
-                              <span style="background-color: #000000">Speciality Page</span>
-                            </a>
-                            <img alt="" class="preview" src="http://www.binarytheme.com/wp-content/uploads/2014/08/bs-saleit.png" />
-                          </li>
-                          <li>
-                            <a href="http://binarytheme.com/demos?theme=Free-app-landing-responsive-template-red-app" >Free-app-landing-responsive-template-red-app
-                              <span style="background-color: #000000">Landing Page</span>
-                            </a>
-                            <img alt="" class="preview" src="http://www.binarytheme.com/wp-content/uploads/2014/08/bs-red-app.png" />
-                          </li>
-                          <li>
-                            <a href="http://binarytheme.com/demos?theme=Free-responsive-ngo-template" >Free-responsive-ngo-template
-                              <span style="background-color: #000000">Business & Corporate</span>
-                            </a>
-                            <img alt="" class="preview" src="http://www.binarytheme.com/wp-content/uploads/2014/08/bs-give-help.png" />
-                          </li>
-                          <li>
-                            <a href="http://binarytheme.com/demos?theme=Responsive-domain-for-sale-template" >Responsive-domain-for-sale-template
-                              <span style="background-color: #000000">Specialty  Page</span>
-                            </a>
-                            <img alt="" class="preview" src="http://www.binarytheme.com/wp-content/uploads/2014/08/bs-domain-sale-simple.png" />
-                          </li>
-                          <li>
-                            <a href="http://binarytheme.com/demos?theme=Website-under-maintenance-template" >Website-under-maintenance-template
-                              <span style="background-color: #000000">Specialty Page</span>
-                            </a>
-                            <img alt="" class="preview" src="http://www.binarytheme.com/wp-content/uploads/2014/08/bs-maintenance.png" />
-                          </li>
-                          <li>
-                            <a href="http://binarytheme.com/demos?theme=Responsive-landing-page" >Responsive-landing-page
-                              <span style="background-color: #000000">Landing Page</span>
-                            </a>
-                            <img alt="" class="preview" src="http://www.binarytheme.com/wp-content/uploads/2014/08/bs-landing-page.png" />
-                          </li>
-                          <li>
-                            <a href="http://binarytheme.com/demos?theme=Free-simple-responsive-admin" >Free-simple-responsive-admin
-                              <span style="background-color: #000000">Admin & Dashboard</span>
-                            </a>
-                            <img alt="" class="preview" src="http://www.binarytheme.com/wp-content/uploads/2014/08/bs-simple-admin1.png" />
-                          </li>
-                          <li>
-                            <a href="http://binarytheme.com/demos?theme=Responsive-mera-portfolio-template" >Responsive-mera-portfolio-template
-                              <span style="background-color: #000000">Portfolio</span>
-                            </a>
-                            <img alt="" class="preview" src="http://www.binarytheme.com/wp-content/uploads/2014/08/bs-mera-template1.png" />
-                          </li>
-                          <li>
-                            <a href="http://binarytheme.com/demos?theme=Free-responsive-website-under-progress-template" >Free-responsive-website-under-progress-template
-                              <span style="background-color: #000000">Specialty</span>
-                            </a>
-                            <img alt="" class="preview" src="http://www.binarytheme.com/wp-content/uploads/2014/08/bs-wup1.png" />
-                          </li>
-                          <li>
-                            <a href="http://binarytheme.com/demos?theme=Appzy-free-responsive-app" >Appzy-free-responsive-app
-                              <span style="background-color: #000000">Landing Page</span>
-                            </a>
-                            <img alt="" class="preview" src="http://www.binarytheme.com/wp-content/uploads/2014/08/bs-appzy1.png" />
-                          </li>
-                          <li>
-                            <a href="http://binarytheme.com/demos?theme=Responsive-live-soon-template" >Responsive-live-soon-template
-                              <span style="background-color: #000000">Specialty</span>
-                            </a>
-                            <img alt="" class="preview" src="http://www.binarytheme.com/wp-content/uploads/2014/08/bs-live-soon1.png" />
-                          </li>
-                          <li>
-                            <a href="http://binarytheme.com/demos?theme=Free-responsive-horizontal-admin-using-bootstrap" >Free-responsive-horizontal-admin-using-bootstrap
-                              <span style="background-color: #000000">Admin Dashboard</span>
-                            </a>
-                            <img alt="" class="preview" src="http://www.binarytheme.com/wp-content/uploads/2014/08/bs-horizontal-admin1.png" />
-                          </li>
-                          <li>
-                            <a href="http://binarytheme.com/demos?theme=Free-responsive-big-template" >Free-responsive-big-template
-                              <span style="background-color: #000000">Single Pager</span>
-                            </a>
-                            <img alt="" class="preview" src="http://www.binarytheme.com/wp-content/uploads/2014/09/bs-big1.png" />
-                          </li>
-                          <li>
-                            <a href="http://binarytheme.com/demos?theme=Free-responsive-education-template" >Free-responsive-education-template
-                              <span style="background-color: #000000">Business & Corporate</span>
-                            </a>
-                            <img alt="" class="preview" src="http://www.binarytheme.com/wp-content/uploads/2014/09/bs-education1.png" />
-                          </li>
-                          <li>
-                            <a href="http://binarytheme.com/demos?theme=Free-domain-selling-template" >Free-domain-selling-template
-                              <span style="background-color: #000000">Speciality</span>
-                            </a>
-                            <img alt="" class="preview" src="http://www.binarytheme.com/wp-content/uploads/2014/09/bs-sell-domain1.png" />
-                          </li>
-                          <li>
-                            <a href="http://binarytheme.com/demos?theme=Responsive-advance-admin-template" >Responsive-advance-admin-template
-                              <span style="background-color: #000000">Admin & Dashboard</span>
-                            </a>
-                            <img alt="" class="preview" src="http://www.binarytheme.com/wp-content/uploads/2014/09/bs-advance-admin1.png" />
-                          </li>
-                          <li>
-                            <a href="http://binarytheme.com/demos?theme=Side-menu-bootstrap-template" >Side-menu-bootstrap-template
-                              <span style="background-color: #000000">Single Pager</span>
-                            </a>
-                            <img alt="" class="preview" src="http://www.binarytheme.com/wp-content/uploads/2014/09/bs-desing1.png" />
-                          </li>
-                          <li>
-                            <a href="http://binarytheme.com/demos?theme=Free-bootstrap-multipager-template-linuji" >Free-bootstrap-multipager-template-linuji
-                              <span style="background-color: #000000">Multipager</span>
-                            </a>
-                            <img alt="" class="preview" src="http://www.binarytheme.com/wp-content/uploads/2014/09/bs-linuji1.png" />
-                          </li>
-                          <li>
-                            <a href="http://binarytheme.com/demos?theme=Bootstrap-video-background-template" >Bootstrap-video-background-template
-                              <span style="background-color: #000000">Single Pager</span>
-                            </a>
-                            <img alt="" class="preview" src="http://www.binarytheme.com/wp-content/uploads/2014/10/bs-video-backdiv1.png" />
-                          </li>
-                          <li>
-                            <a href="http://binarytheme.com/demos?theme=Working-on-website-template" >Working-on-website-template
-                              <span style="background-color: #000000">Specialty</span>
-                            </a>
-                            <img alt="" class="preview" src="http://www.binarytheme.com/wp-content/uploads/2014/10/bs-simple-working-img1.png" />
-                          </li>
-                          <li>
-                            <a href="http://binarytheme.com/demos?theme=Bootstrap-photo-gallery-template" >Bootstrap-photo-gallery-template
-                              <span style="background-color: #000000">Business & Corporate</span>
-                            </a>
-                            <img alt="" class="preview" src="http://www.binarytheme.com/wp-content/uploads/2014/10/bs-photogyaphy1.png" />
-                          </li>
-                          <li>
-                            <a href="http://binarytheme.com/demos?theme=Bootsrap-landing-page-blue" >Bootsrap-landing-page-blue
-                              <span style="background-color: #000000">Sinple Pager</span>
-                            </a>
-                            <img alt="" class="preview" src="http://www.binarytheme.com/wp-content/uploads/2014/10/bs-blue-landing1.png" />
-                          </li>
-                          <li>
-                            <a href="http://binarytheme.com/demos?theme=Just-landing-page-using-bootstrap" >Just-landing-page-using-bootstrap
-                              <span style="background-color: #000000">Single Pager</span>
-                            </a>
-                            <img alt="" class="preview" src="http://www.binarytheme.com/wp-content/uploads/2014/10/just-landing-page1.png" />
-                          </li>
-                          <li>
-                            <a href="http://binarytheme.com/demos?theme=Bootstrap-smart-template" >Bootstrap-smart-template
-                              <span style="background-color: #000000">Single Pager</span>
-                            </a>
-                            <img alt="" class="preview" src="http://www.binarytheme.com/wp-content/uploads/2014/10/bs-smart-template1.png" />
-                          </li>
-                          <li>
-                            <a href="http://binarytheme.com/demos?theme=Free-bootstrap-hosting-template" >Free-bootstrap-hosting-template
-                              <span style="background-color: #000000">Multipager</span>
-                            </a>
-                            <img alt="" class="preview" src="http://www.binarytheme.com/wp-content/uploads/2014/10/it-host-img1.png" />
-                          </li>
-                          <li>
-                            <a href="http://binarytheme.com/demos?theme=Free-single-pager-light-and-dark" >Free-single-pager-light-and-dark
-                              <span style="background-color: #000000">Single Pager</span>
-                            </a>
-                            <img alt="" class="preview" src="http://www.binarytheme.com/wp-content/uploads/2014/11/clean-template-bs1.jpg" />
-                          </li>
-                          <li>
-                            <a href="http://binarytheme.com/demos?theme=Free-bootstrap-responsive-blog-template" >Free-bootstrap-responsive-blog-template
-                              <span style="background-color: #000000">Blogging</span>
-                            </a>
-                            <img alt="" class="preview" src="http://www.binarytheme.com/wp-content/uploads/2014/11/bs-just-blog1.png" />
-                          </li>
-                          <li>
-                            <a href="http://binarytheme.com/demos?theme=Very-nice-responsive-template-for-bloggers" >Very-nice-responsive-template-for-bloggers
-                              <span style="background-color: #FFFFFF">Blog</span>
-                            </a>
-                            <img alt="" class="preview" src="http://www.binarytheme.com/wp-content/uploads/2015/03/responsive-template-for-blogger1.jpg" />
-                          </li>
-                          <li>
-                            <a href="http://binarytheme.com/demos?theme=Free-best-bootstrap-admin-template" >Free-best-bootstrap-admin-template
-                              <span style="background-color: #000000">Admin Dashboard</span>
-                            </a>
-                            <img alt="" class="preview" src="http://www.binarytheme.com/wp-content/uploads/2014/12/best-admin-free1.png" />
-                          </li>
-                          <li>
-                            <a href="http://binarytheme.com/demos?theme=Bootstrap-template-simple-landing-page" >Bootstrap-template-simple-landing-page
-                              <span style="background-color: #000000">Landing Page</span>
-                            </a>
-                            <img alt="" class="preview" src="http://www.binarytheme.com/wp-content/uploads/2015/01/landing-page1.png" />
-                          </li>
-                          <li>
-                            <a href="http://binarytheme.com/demos?theme=Bootstrap-Template-for-Woman-Blogs" >Bootstrap-Template-for-Woman-Blogs
-                              <span style="background-color: #FFFFFF">Blogs</span>
-                            </a>
-                            <img alt="" class="preview" src="http://www.binarytheme.com/wp-content/uploads/2015/03/bootstrap-template-for-woman-blog1.jpg" />
-                          </li>
-                          <li>
-                            <a href="http://binarytheme.com/demos?theme=Bootstrap-template-blog-2015" >Bootstrap-template-blog-2015
-                              <span style="background-color: #FFFFFF">Blog</span>
-                            </a>
-                            <img alt="" class="preview" src="http://binarytheme.com/wp-content/uploads/2015/09/bootstrap-template-for-blog-min.jpg" />
-                          </li>
-                          <li>
-                            <a href="http://binarytheme.com/demos?theme=Bloggo-Clean-Personal-Blog-HTML5-Template" >Bloggo-Clean-Personal-Blog-HTML5-Template
-                              <span style="background-color: #FFFFFF">html template bloag</span>
-                            </a>
-                            <img alt="" class="preview" src="http://binarytheme.com/wp-content/uploads/2015/09/Bloggo-Clean-Personal-Blog-HTML5-Template.jpg" />
-                          </li>
-                          <li>
-                            <a href="http://binarytheme.com/demos?theme=Mius-one-page-responsive-template" >Mius-one-page-responsive-template
-                              <span style="background-color: #FFFFFF">one page site</span>
-                            </a>
-                            <img alt="" class="preview" src="http://www.binarytheme.com/wp-content/uploads/2015/07/Mius-onepageresponsivetemplate.png" />
-                          </li>
-                          <li>
-                            <a href="http://binarytheme.com/demos?theme=Blackor-responsive-html5-template" >Blackor-responsive-html5-template
-                              <span style="background-color: #FFFFFF">html template</span>
-                            </a>
-                            <img alt="" class="preview" src="http://binarytheme.com/wp-content/uploads/2015/09/blackor-responsive-html5-template.jpg" />
-                          </li>
-                          <li>
-                            <a href="http://binarytheme.com/demos?theme=Jetis-Elegant-Responsive-HTML5-Template" >Jetis-Elegant-Responsive-HTML5-Template
-                              <span style="background-color: #FFFFFF">Responsive HTML5 Template</span>
-                            </a>
-                            <img alt="" class="preview" src="http://binarytheme.com/wp-content/uploads/2015/09/Jetis-Elegant-Responsive-HTML5-Template.jpg" />
-                          </li>
-                          <li>
-                            <a href="http://binarytheme.com/demos?theme=Portfolio-responsive-template" >Portfolio-responsive-template
-                              <span style="background-color: #FFFFFF">portfolio responsive template</span>
-                            </a>
-                            <img alt="" class="preview" src="http://binarytheme.com/wp-content/uploads/2015/09/portfolio-responsive-template.jpg" />
-                          </li>
-                          <li>
-                            <a href="http://binarytheme.com/demos?theme=Yellow-one-page-html-template" >Yellow-one-page-html-template
-                              <span style="background-color: #FFFFFF">yellow one page html template</span>
-                            </a>
-                            <img alt="" class="preview" src="http://binarytheme.com/wp-content/uploads/2015/09/yellow-one-page-html-template.jpg" />
-                          </li>
-                          <li>
-                            <a href="http://binarytheme.com/demos?theme=Redas-template-news" >Redas-template-news
-                              <span style="background-color: #FFFFFF">template html redas</span>
-                            </a>
-                            <img alt="" class="preview" src="http://binarytheme.com/wp-content/uploads/2015/12/redas-template-news.jpg" />
-                          </li>
-                        </ul>
-                      </li>
-                    </ul>
-                    <div class="responsive">
-                      <a href="#" class="desktop active" title="View Desktop Version"></a>
-                      <a href="#" class="tabletlandscape" title="View Tablet Landscape (1024x768)"></a>
-                      <a href="#" class="tabletportrait" title="View Tablet Portrait (768x1024)"></a>
-                      <a href="#" class="mobilelandscape" title="View Mobile Landscape (480x320)"></a>
-                      <a href="#" class="mobileportrait" title="View Mobile Portrait (320x480)"></a>
-                    </div>
-                    <div class="share">
-                      <ul>
-                        <li>
-                          <a href="https://twitter.com/share" class="twitter-share-button" data-url="http://www.binarytheme.com/bootstrap-timeline-template/" data-lang="en">Tweet</a>
-                          <script>!function(d, s, id) {
-                                        var js, fjs = d.getElementsByTagName(s)[0], p = /^http:/.test(d.location) ? 'http' : 'https';
-                                        if (!d.getElementById(id)) {
-                                            js = d.createElement(s);
-                                            js.id = id;
-                                            js.src = p + '://platform.twitter.com/widgets.js';
-                                            fjs.parentNode.insertBefore(js, fjs);
-                                        }
-                                    }(document, 'script', 'twitter-wjs');</script>
-                        </li>
-                        <li>
-                          <iframe src="//www.facebook.com/plugins/like.php?href=http://www.binarytheme.com/bootstrap-timeline-template/&amp;send=false&amp;layout=button_count&amp;width=100&amp;show_faces=false&amp;font=arial&amp;colorscheme=light&amp;action=like&amp;height=21" scrolling="no" frameborder="0" style="border:none; overflow:hidden; width:100px; height:21px;" allowTransparency="true"></iframe>
-                        </li>
-                        <li>
-                          <div class="g-plusone" data-size="medium" data-href="http://www.binarytheme.com/bootstrap-timeline-template/"></div>
-                        </li>
-                      </ul>
-                    </div>
-                  </div>
-                  <ul class="links">
-                    <li class="purchase" rel="http://www.binarytheme.com/bootstrap-timeline-template/">
-                      <a href="http://www.binarytheme.com/bootstrap-timeline-template/">
-                        <img src="http://binarytheme.com/wp-content/plugins/fbar/images/purchase.png" alt="Download" /> Download
-                      </a>
-                    </li>
-                    <li class="close" rel="http://binarytheme.com/BTlivedemos/04-2014/01042014/BS-Timeline/index.html">
-                      <a href="http://binarytheme.com/BTlivedemos/04-2014/01042014/BS-Timeline/index.html">
-                        <img src="http://binarytheme.com/wp-content/plugins/fbar/images/cross.png" alt="Close" /> Close
-                      </a>
-                    </li>
-                  </ul>
-                </div>
-                <iframe id="iframe" src="http://binarytheme.com/BTlivedemos/04-2014/01042014/BS-Timeline/index.html" frameborder="0" width="100%" height="100%"></iframe>
-                <script type="text/javascript">
-            (function() {
-                var po = document.createElement('script');
-                po.type = 'text/javascript';
-                po.async = true;
-                po.src = 'https://apis.google.com/js/plusone.js';
-                var s = document.getElementsByTagName('script')[0];
-                s.parentNode.insertBefore(po, s);
-            })();
-        </script>
-              </body>
-            </html>
-            <!-- Dynamic page generated in 0.436 seconds. -->
-            <!-- Cached page generated by WP-Super-Cache on 2017-06-12 13:19:37 -->
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Autonomous Weeder</title>
+    <link rel="stylesheet" href="/colors.css">
+  </head>
+  <body>
+    <div class="container">
+      <header class="page-header">
+        <h1>Dark Responsive Timeline with Bootstrap</h1>
+      </header>
+
+      <ul class="timeline">
+        <li><div class="tldate">Apr 2014</div></li>
+
+        <li>
+          <div class="tl-circ"></div>
+          <div class="timeline-panel">
+            <div class="tl-heading">
+              <h4>Surprising Headline Right Here</h4>
+              <p><small class="text-muted"><i class="glyphicon glyphicon-time"></i> 3 hours ago</small></p>
+            </div>
+            <div class="tl-body">
+              <p>Lorem Ipsum and such.</p>
+            </div>
+          </div>
+        </li>
+
+        <li class="timeline-inverted">
+          <div class="tl-circ"></div>
+          <div class="timeline-panel">
+            <div class="tl-heading">
+              <h4>Breaking into Spring!</h4>
+              <p><small class="text-muted"><i class="glyphicon glyphicon-time"></i> 4/07/2014</small></p>
+            </div>
+            <div class="tl-body">
+              <p>Hope the weather gets a bit nicer...</p>
+
+              <p>Y'know, with more sunlight.</p>
+            </div>
+          </div>
+        </li>
+
+        <li><div class="tldate">Mar 2014</div></li>
+
+        <li>
+          <div class="tl-circ"></div>
+          <div class="timeline-panel">
+            <div class="tl-heading">
+              <h4>New Apple Device Release Date</h4>
+              <p><small class="text-muted"><i class="glyphicon glyphicon-time"></i> 3/22/2014</small></p>
+            </div>
+            <div class="tl-body">
+              <p>In memory of Steve Jobs.</p>
+            </div>
+          </div>
+        </li>
+        <li class="timeline-inverted">
+          <div class="timeline-panel">
+            <div class="tl-heading">
+              <h4>No icon here</h4>
+              <p><small class="text-muted"><i class="glyphicon glyphicon-time"></i> 3/16/2014</small></p>
+            </div>
+            <div class="tl-body">
+              <p>Here you'll find some beautiful photography for your viewing pleasure, courtesy of <a href="http://lorempixel.com/">lorempixel</a>.</p>
+
+              <p><img src="http://lorempixel.com/600/300/nightlife/" alt="lorem pixel"></p>
+            </div>
+          </div>
+        </li>
+        <li>
+          <div class="tl-circ"></div>
+          <div class="timeline-panel">
+            <div class="tl-heading">
+              <h4>Some Important Date!</h4>
+              <p><small class="text-muted"><i class="glyphicon glyphicon-time"></i> 3/03/2014</small></p>
+            </div>
+            <div class="tl-body">
+              <p>Write up a quick summary of the event.</p>
+            </div>
+          </div>
+        </li>
+        <li>
+          <div class="timeline-panel noarrow">
+            <div class="tl-heading">
+              <h4>Secondary Timeline Box</h4>
+              <p><small class="text-muted"><i class="glyphicon glyphicon-time"></i> 3/01/2014</small></p>
+            </div>
+            <div class="tl-body">
+              <p>This might be a follow-up post with related info. Maybe we include some extra links, tweets, user comments, photos, etc.</p>
+            </div>
+          </div>
+        </li>
+
+        <li><div class="tldate">Feb 2014</div></li>
+
+        <li class="timeline-inverted">
+          <div class="tl-circ"></div>
+          <div class="timeline-panel">
+            <div class="tl-heading">
+              <h4>The Winter Months</h4>
+              <p><small class="text-muted"><i class="glyphicon glyphicon-time"></i> 02/23/2014</small></p>
+            </div>
+            <div class="tl-body">
+              <p>Gee time really flies when you're having fun.</p>
+            </div>
+          </div>
+        </li>
+        <li>
+          <div class="tl-circ"></div>
+          <div class="timeline-panel">
+            <div class="tl-heading">
+              <h4>Yeah we're pretty much done here</h4>
+              <p><small class="text-muted"><i class="glyphicon glyphicon-time"></i> 02/11/2014</small></p>
+            </div>
+            <div class="tl-body">
+              <p>Wasn't this fun though?</p>
+            </div>
+          </div>
+        </li>
+      </ul>
+  </body>
+</html>
